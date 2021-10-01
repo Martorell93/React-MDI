@@ -15,12 +15,14 @@ const Openchat = (props) => {
                 {
                     props.history.map((history_, i) => (
                         <Message key={i} user={history_.user}
-                        message={history_.message}/>
+                        message={history_.message}
+                        time={history_.time}/>
                     ))
                 }
+                {props.history.time}
             </div>
             <div className="chat_footer">
-                <input type="text" className="chat_new_message" />
+                <input type="text" className="chat_new_message" placeholder="Escribir mensaje..."/>
                 <button className="chat_send_message">Enviar</button>
             </div>
         </div>

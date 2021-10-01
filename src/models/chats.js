@@ -11,27 +11,33 @@ export const chats = [
         history: [
             {
                 user: "Cora Clayton",
-                message: "Massa aliquam consectetur donec vitae enim egestas nulla. Ut soda egestas fememtum nisl porttitor leo tristique quisque. Fermentum sit luctus tellus nunc aliquam adipiscing. Mi molestie viverra present nunc ut. Enim nunc volutpat quam in quis."
+                message: "Massa aliquam consectetur donec vitae enim egestas nulla. Ut soda egestas fememtum nisl porttitor leo tristique quisque. Fermentum sit luctus tellus nunc aliquam adipiscing. Mi molestie viverra present nunc ut. Enim nunc volutpat quam in quis.",
+                time: "12:28"
             },
             {
                 user: "Johanna Doe",
-                message: "Blandit ultricies id faucibus integer vulputate placerat quam. Massa aliquam consectetur donex vitae enim egestas nulla. Ut sodales egestas fementum."
+                message: "Blandit ultricies id faucibus integer vulputate placerat quam. Massa aliquam consectetur donex vitae enim egestas nulla. Ut sodales egestas fementum.",
+                time: "12:30"
             },
             {
                 user: "Danny Wise",
-                message: "Blandit ultricies id faucibud integer vulputate placerat quam. Massa aliquam consectetur donec vitae enim egestas nulla."
+                message: "Blandit ultricies id faucibud integer vulputate placerat quam. Massa aliquam consectetur donec vitae enim egestas nulla.",
+                time: "12:31"
             },
             {
                 user: "Cora Clayton",
-                message: "Blandit ultricies id faucibus integer vulputate placearat quam. Massa aliquam consectetur donec vitae enim egestas nulla."
+                message: "Blandit ultricies id faucibus integer vulputate placearat quam. Massa aliquam consectetur donec vitae enim egestas nulla.",
+                time: "12:34"
             },
             {
                 user: "Johanna Doe",
-                message: "Blandit ultricies id faucibus integer vulputate placerat quam. Massa aliquam consectetur donec vitae enim egestas nulla. Ut sodales egestas fermentum nisl portitor leo tristique quisque. Fermentum sit luctus tellus nunc aliquam adipiscing. Mi molestie viverra praesent nunc ut. Enim nunc volutpat quam in quis."
+                message: "Blandit ultricies id faucibus integer vulputate placerat quam. Massa aliquam consectetur donec vitae enim egestas nulla. Ut sodales egestas fermentum nisl portitor leo tristique quisque. Fermentum sit luctus tellus nunc aliquam adipiscing. Mi molestie viverra praesent nunc ut. Enim nunc volutpat quam in quis.",
+                time: "12:38"
             },
             {
                 user: "Cora Clayton",
-                message: "Blandit ultricies id faucibus integer vulputate placerat quam. Massa aliquam consectetur donec vitae enim egestas nulla."
+                message: "Blandit ultricies id faucibus integer vulputate placerat quam. Massa aliquam consectetur donec vitae enim egestas nulla.",
+                time: "12:38"
             }
         ]
     },
