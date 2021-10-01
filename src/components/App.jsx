@@ -8,6 +8,8 @@ import { chats } from '../models/chats'
 import Openchat from './Chats/Openchat'
 
 const App = () => {
+
+
   return (
     <div className={styles.App}>
       <Header />
@@ -20,13 +22,12 @@ const App = () => {
           <Chats />
           {
             chats.map((chat_, i) => (
-              (chat_.open) ? 
-              <Openchat key={i}
-              title={chat_.title} category={chat_.category}
-              participants={chat_.participants} history={chat_.history} />
-              :
-              // IF TERNARIO SIN ELSE, ¿COMO HACERLO?
-              <p key={i}>No hay chat abierto</p>
+              (chat_.open) ?
+                <Openchat key={i}
+                  title={chat_.title} category={chat_.category}
+                  participants={chat_.participants} history={chat_.history} />
+                :
+                null
             ))
           }
         </div>
@@ -34,5 +35,7 @@ const App = () => {
     </div>
   )
 }
+
+
 
 export default App
