@@ -1,19 +1,21 @@
 import React from 'react'
-import { cases } from '../../models/cases'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCircle, faPlus } from '@fortawesome/free-solid-svg-icons'
+import './Category.scss'
 
 const Category = () => {
     return (
-        <div className="category">
-            <div className="categoryBox">
-                <div className="red">red</div>
-                <div className="oranje">oranje</div>
-                <div className="green">green</div>
-                <div className="blue">blue</div>
-                <div className="pruple">pruple</div>
-                <div className="grey">grey</div>
+        <div className="category container_spaceB">
+            <div className="category_box container_spaceE">
+                <FontAwesomeIcon icon={faCircle} className='category_dots red'/>
+                <FontAwesomeIcon icon={faCircle} className='category_dots oranje'/>
+                <FontAwesomeIcon icon={faCircle} className='category_dots green'/>
+                <FontAwesomeIcon icon={faCircle} className='category_dots blue'/>
+                <FontAwesomeIcon icon={faCircle} className='category_dots purple'/>
+                <FontAwesomeIcon icon={faCircle} className='category_dots grey'/>
             </div>
-            <button className="addCategory">
-                <img src="" alt="add category"></img>
+            <button className="add_category">
+                <FontAwesomeIcon icon={faPlus} className='add'/>
             </button>
         </div>
     )

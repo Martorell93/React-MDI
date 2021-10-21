@@ -5,11 +5,11 @@ const HeaderLogo = () => {
     const projectName = "acm.chat"
 
     return (
-        <div className="header_brand">
+        <div className="header_logo container_center">
             <div className="logo">
-                <img src={logo} alt="" />
+                <img src={logo} alt="logo acm.chat" />
             </div>
-            <div className="slogan">
+            <div className="name">
                 {projectName}
             </div>
         </div>

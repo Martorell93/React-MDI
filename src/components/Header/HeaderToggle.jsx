@@ -1,9 +1,11 @@
+import { faEllipsisV } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 const HeaderToggle = () => {
     return (
         <div className="header_toggle">
-           <img src="" alt="toggle" className="toggle_display" />
+           <FontAwesomeIcon icon={faEllipsisV} className='ellipsis'/>
         </div>
     )
 }

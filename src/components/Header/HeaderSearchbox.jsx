@@ -1,16 +1,14 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faSearch } from "@fortawesome/free-solid-svg-icons"
 
 const HeaderSearchbox = () => {
     return (
         <div className="HeaderSearchbox">
-            <form action="">
-                <div className="icon">
-                    icon
+            <div className="search">
+                <FontAwesomeIcon icon={faSearch} className="searchIcon" />
+                <input type="text" placeholder='Search' className="searchText" />
                 </div>
-                <div className="input">
-                    <input type="text" />
-                </div>
-            </form>
         </div>
     )
 }

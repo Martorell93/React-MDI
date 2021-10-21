@@ -1,0 +1,86 @@
+@import "./lib/vars.scss";
+// @import "./lib/reboot.scss";
+
+/* ----- Cleaners ------ */
+* {
+    font-family: 'Chakra Petch', arial;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(var(--color_black));
+    font-size: var(--font_size);
+    font-weight: 300;
+    background: transparent;
+    list-style-type: none;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+//  Clases Globales
+
+// Container (Row) Display (Column)
+
+.container_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_spaceB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_spaceA {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container_spaceE {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.display_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display_spaceB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display_spaceA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.display_spaceE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header {
+    background-color: #FFFFFF;
+    height: $height_header;
+}
+
+.content {
+    height: calc(100vw - $height_header);
+}
